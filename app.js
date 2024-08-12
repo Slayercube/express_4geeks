@@ -12,7 +12,7 @@ app.use("/", indexRoutes);
 const usersRoutes = require("./routes/users.routes");
 app.use("/users", usersRoutes);
 
-// console.log(process.env.DB_URI);
+console.log(process.env.DB_URI);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
